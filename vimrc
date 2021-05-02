@@ -38,7 +38,7 @@ nnoremap <leader>k :bnext<cr>
 nnoremap <leader>j :bprevious<cr>
 nnoremap ,html :-1read $HOME/.config/.skeleton.html<cr>
 
-"comandos
+"comandos por editar
 iab _h1 <h1></h1>
 inoremap <h1></h1> <h1></h1><esc>F>
 iab _header <h1></h1>

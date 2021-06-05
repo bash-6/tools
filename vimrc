@@ -1,3 +1,4 @@
+"configuracion en vim
 set rnu
 syntax on
 set autoindent

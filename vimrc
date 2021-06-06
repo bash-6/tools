@@ -18,30 +18,11 @@ set incsearch
 set ignorecase
 set encoding=utf-8
 colorscheme molokai
-"set termguicolors
 
 let mapleader = "\<Space>"
-noremap <up> <nop>
-noremap <down> <nop>
-noremap <left> <nop>
-noremap <right> <nop>
 
-nnoremap <silent> <right> :vertical resize -5<cr>
-nnoremap <silent> <left> :vertical resize -5<cr>
-nnoremap <silent> <down> :vertical resize -5<cr>
-nnoremap <silent> <up> :vertical resize -5<cr>
-
-inoremap <Esc> <Esc>:w<cr>
 nnoremap <leader>q :q!<CR>
 nnoremap <leader>w :w<cr>
 nnoremap <leader>k :bnext<cr>
 nnoremap <leader>j :bprevious<cr>
 nnoremap ,html :-1read $HOME/.config/.skeleton.html<cr>
-
-"comandos por editar
-iab _h1 <h1></h1>
-inoremap <h1></h1> <h1></h1><esc>F>
-iab _header <h1></h1>
-inoremap <h1></h1> <h1></h1><esc>F>
-inoremap << ><esc>bi<esc>yf>pF<a/
-
